@@ -1,27 +1,29 @@
 <template>
   <section class="container">
-    <div>
-      <logo />
+    <div class="fondo-color">
       <h1 class="title">
-        web-hunter
+        Food Forest in Panama
       </h1>
       <h2 class="subtitle">
-        My stylish Nuxt.js project
+        with Ron Hunter and James Brown
       </h2>
+      <div class="foto-duo">
+        <img src="~assets/test_portada.jpg" alt="Responsive image">
+      </div>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
           class="button--green"
         >
-          Documentation
+          Youtube
         </a>
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey"
         >
-          GitHub
+          Email
         </a>
       </div>
     </div>
@@ -29,16 +31,19 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
+  components: {}
 }
 </script>
-
 <style>
+section {
+  background-image: url('~assets/sky.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100%;
+  background-blend-mode: darken;
+}
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -47,26 +52,34 @@ export default {
   align-items: center;
   text-align: center;
 }
-
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
   letter-spacing: 1px;
 }
 
 .subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
-
+.foto-duo {
+  width: 100%;
+  text-align: center;
+}
+.foto-duo img {
+  width: 100%;
+  margin: auto;
+  max-width: 600px;
+}
 .links {
-  padding-top: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 </style>
