@@ -12,6 +12,8 @@
       </div>
       <div class="links">
         <a
+          v-b-popover.hover.left="'I am popover content!'" 
+          title="Popover Title"
           href="https://nuxtjs.org/"
           target="_blank"
           class="button--green"
@@ -19,9 +21,11 @@
           Youtube
         </a>
         <a
+          v-b-popover.hover="'I am popover content!'" 
+          title="Popover Title"
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
-          class="button--grey"
+          class="button--grey"  
         >
           Email
         </a>
