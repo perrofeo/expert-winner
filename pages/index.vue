@@ -21,7 +21,7 @@
       </div>
       <div class="contacto">
         <a v-b-popover.hover="'I am popover content!'" title="Popover Title" href=""><img src="~assets/YouTube.png" alt="logo youtube"></a>
-        <p>Take a look in our <a href="#">Youtube Channel</a>, maybe <a href="#">subscribe</a>.</p>
+        <p>Take a look in our <a href="#">Youtube Channel</a> and, why not, <a href="#">subscribe</a>.</p>
       </div>
     </div>
   </div>
@@ -101,6 +101,9 @@ export default {
   }
   .subtitle {
     font-size: 16px;
+  }
+  .container {
+    min-height: 90vh;
   }
 }
 </style>
