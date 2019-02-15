@@ -42,7 +42,7 @@
 }
 .fondo-color {
   padding: 50px;
-  height: 70vh;
+  height: 60vh;
 }
 .bg-light {
   background-color: transparent !important;
