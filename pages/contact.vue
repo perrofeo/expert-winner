@@ -1,11 +1,12 @@
 <template>
-  <div class="fondo-home">
+  <div>
+    <div class="fondo-contact">
   <b-navbar toggleable type="light" variant="light">
     <b-navbar-brand href="#">
       <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="BV" />
     </b-navbar-brand>
     <b-navbar-nav class="ml-auto">
-    <b-nav-item href="/contact" right>Info & Contact</b-nav-item>
+    <b-nav-item href="/" right>back to Home</b-nav-item>
     </b-navbar-nav>
   </b-navbar>
   <div class="container">
@@ -16,41 +17,41 @@
       <h2 class="subtitle">
         with Ron Hunter and James Brown
       </h2>
-      <div class="foto-duo">
-        <img src="~assets/test_portada.jpg" alt="Ron and James">
-      </div>
-      <div class="contacto">
-        <a v-b-popover.hover="'I am popover content!'" title="Popover Title" href=""><img src="~assets/YouTube.png" alt="logo youtube"></a>
-        <p>Take a look in our <a href="#">Youtube Channel</a>, maybe <a href="#">subscribe</a>.</p>
-      </div>
     </div>
   </div>
   </div>
+  <div class="info text-center">
+      <h1>Info & Contacto</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod cumque quae blanditiis libero facere eos ratione asperiores eius, illo magni nesciunt ad debitis dolorem explicabo impedit amet dolorum? Doloremque, velit?</p>
+  </div>
+  <div class="contacto text-center">
+        <a v-b-popover.hover="'I am popover content!'" title="Popover Title" href=""><img src="~assets/YouTube.png" alt="logo youtube"></a>
+        <p>Take a look in our <a href="#">Youtube Channel</a>, maybe <a href="#">subscribe</a>.</p>
+      </div>
+  </div>
 </template>
 
-<script>
-export default {
-  components: {}
-}
-</script>
 <style>
-.fondo-home {
-  background-image: url('~assets/sky.jpg');
+.fondo-contact {
+  background-image: url('~assets/IMG_8223.JPG');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   min-width: 100%;
   background-blend-mode: darken;
+}
+.fondo-color {
+  padding: 50px;
 }
 .bg-light {
   background-color: transparent !important;
 }
-.navbar a {
-  color: black;
+.fondo-contact .nav-link {
+  color: white !important;
 }
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,14 +75,10 @@ export default {
   word-spacing: 5px;
   padding-bottom: 15px;
 }
-.foto-duo {
-  width: 100%;
-  text-align: center;
-}
-.foto-duo img {
-  width: 100%;
+.info {
+  padding-top: 40px;
+  max-width: 500px;
   margin: auto;
-  max-width: 600px;
 }
 .contacto {
   width: 100%;
