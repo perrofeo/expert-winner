@@ -21,7 +21,7 @@
   </div>
   </div>
   <div class="info text-center">
-      <h1>Info & Contacto</h1>
+      <h1>Info & Contact</h1>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod cumque quae blanditiis libero facere eos ratione asperiores eius, illo magni nesciunt ad debitis dolorem explicabo impedit amet dolorum? Doloremque, velit?</p>
   </div>
   <div class="contacto text-center">
@@ -36,12 +36,13 @@
   background-image: url('~assets/test_portada2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   min-width: 100%;
   background-blend-mode: darken;
 }
 .fondo-color {
   padding: 50px;
+  height: 70vh;
 }
 .bg-light {
   background-color: transparent !important;
