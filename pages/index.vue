@@ -1,5 +1,14 @@
 <template>
-  <section class="container">
+  <div class="fondo-home">
+  <b-navbar toggleable type="light" variant="light">
+    <b-navbar-brand href="#">
+      <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="BV" />
+    </b-navbar-brand>
+    <b-navbar-nav class="ml-auto">
+    <b-nav-item href="/contact" right>Info & Contact</b-nav-item>
+    </b-navbar-nav>
+  </b-navbar>
+  <div class="container">
     <div class="fondo-color">
       <h1 class="title">
         Food Forest in Panama
@@ -11,11 +20,12 @@
         <img src="~assets/test_portada.jpg" alt="Responsive image">
       </div>
       <div class="contacto">
-        <a href=""><img src="~assets/YouTube.png" alt="logo youtube"></a>
+        <a v-b-popover.hover="'I am popover content!'" title="Popover Title" href=""><img src="~assets/YouTube.png" alt="logo youtube"></a>
         <p>Take a look in our <a href="#">Youtube Channel</a>, maybe <a href="#">subscribe</a>.</p>
       </div>
     </div>
-  </section>
+  </div>
+  </div>
 </template>
 
 <script>
@@ -24,13 +34,19 @@ export default {
 }
 </script>
 <style>
-section {
+.fondo-home {
   background-image: url('~assets/sky.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-width: 100%;
   background-blend-mode: darken;
+}
+.bg-light {
+  background-color: transparent !important;
+}
+.navbar a {
+  color: black;
 }
 .container {
   margin: 0 auto;
@@ -48,7 +64,7 @@ section {
   font-size: 60px;
   color: white;
   letter-spacing: 1px;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .subtitle {
@@ -77,5 +93,13 @@ section {
 }
 .contacto a {
   color: #d52423;
+}
+@media (max-width: 750px) {
+  .title {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 16px;
+  }
 }
 </style>
