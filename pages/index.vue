@@ -10,25 +10,9 @@
       <div class="foto-duo">
         <img src="~assets/test_portada.jpg" alt="Responsive image">
       </div>
-      <div class="links">
-        <a
-          v-b-popover.hover.left="'I am popover content!'" 
-          title="Popover Title"
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Youtube
-        </a>
-        <a
-          v-b-popover.hover="'I am popover content!'" 
-          title="Popover Title"
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"  
-        >
-          Email
-        </a>
+      <div class="contacto">
+        <a href=""><img src="~assets/YouTube.png" alt="logo youtube"></a>
+        <p>Take a look in our <a href="#">Youtube Channel</a>, maybe <a href="#">subscribe</a>.</p>
       </div>
     </div>
   </section>
@@ -64,6 +48,7 @@ section {
   font-size: 60px;
   color: white;
   letter-spacing: 1px;
+  padding-top: 20px;
 }
 
 .subtitle {
@@ -82,8 +67,15 @@ section {
   margin: auto;
   max-width: 600px;
 }
-.links {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.contacto {
+  width: 100%;
+  padding: 0 0 40px;
+}
+.contacto img {
+  width: 110px;
+  padding: 0px 0 0px;
+}
+.contacto a {
+  color: #d52423;
 }
 </style>
