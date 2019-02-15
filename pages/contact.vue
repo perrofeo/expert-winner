@@ -44,9 +44,6 @@
   padding: 50px;
   height: 60vh;
 }
-.bg-light {
-  background-color: transparent !important;
-}
 .fondo-contact .nav-link {
   color: white !important;
 }
@@ -57,24 +54,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: bold;
-  font-size: 60px;
-  color: white;
-  letter-spacing: 1px;
-  padding-top: 0px;
-}
-
-.subtitle {
-  font-weight: bold;
-  font-size: 20px;
-  color: white;
-  word-spacing: 5px;
-  padding-bottom: 15px;
 }
 .info {
   padding-top: 40px;
