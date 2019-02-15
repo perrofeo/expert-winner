@@ -33,7 +33,7 @@
 
 <style>
 .fondo-contact {
-  background-image: url('~assets/IMG_8223.JPG');
+  background-image: url('~assets/test_portada2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
