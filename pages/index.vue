@@ -41,6 +41,7 @@ export default {
   background-position: center;
   min-width: 100%;
   background-blend-mode: darken;
+  min-height: 100vh;
 }
 .bg-light {
   background-color: transparent !important;
@@ -50,7 +51,7 @@ export default {
 }
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
