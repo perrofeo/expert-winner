@@ -46,6 +46,13 @@ export default {
 .navbar a {
   color: black;
 }
+.nav-item {
+  background-color: white;
+}
+.navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
 .container {
   margin: 0 auto;
   min-height: 100%;
