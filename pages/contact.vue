@@ -88,7 +88,7 @@
 }
 .contacto img {
   width: 110px;
-  padding: 0px 0 0px;
+  padding: 20px 0;
 }
 .contacto a {
   color: #d52423;

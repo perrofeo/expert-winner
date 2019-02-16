@@ -51,7 +51,7 @@ export default {
 }
 .container {
   margin: 0 auto;
-  min-height: 100%;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,6 @@ export default {
   font-size: 60px;
   color: white;
   letter-spacing: 1px;
-  padding-top: 50px;
 }
 
 .subtitle {
@@ -101,12 +100,10 @@ export default {
 @media (max-width: 750px) {
   .title {
     font-size: 40px;
+    padding-top: 50px;
   }
   .subtitle {
     font-size: 16px;
-  }
-  .container {
-    min-height: 90vh;
   }
 }
 </style>
