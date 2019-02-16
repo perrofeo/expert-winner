@@ -2,12 +2,9 @@
   <div>
     <div class="fondo-contact">
   <b-navbar toggleable type="light" variant="light">
-    <b-navbar-brand href="#">
-      <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="BV" />
+    <b-navbar-brand href="/">
+      Home
     </b-navbar-brand>
-    <b-navbar-nav class="ml-auto">
-    <b-nav-item href="/" right>back to Home</b-nav-item>
-    </b-navbar-nav>
   </b-navbar>
   <div class="container">
     <div class="fondo-color">
@@ -49,6 +46,10 @@
 }
 .fondo-contact .nav-link {
   color: white !important;
+}
+.navbar-light .navbar-brand {
+  color: white;
+  font-size: 1rem;
 }
 .container {
   margin: 0 auto;

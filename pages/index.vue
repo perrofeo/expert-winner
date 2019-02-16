@@ -1,11 +1,8 @@
 <template>
   <div class="fondo-home">
   <b-navbar toggleable type="light" variant="light">
-    <b-navbar-brand href="#">
-      <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="BV" />
-    </b-navbar-brand>
     <b-navbar-nav class="ml-auto">
-    <b-nav-item href="/contact" right>Info & Contact</b-nav-item>
+    <b-nav-item href="/contact" right>to Info & Contact</b-nav-item>
     </b-navbar-nav>
   </b-navbar>
   <div class="container">
