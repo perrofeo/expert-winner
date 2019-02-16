@@ -21,7 +21,7 @@
   <div class="contacto text-center">
         <a v-b-popover.hover="'I am popover content!'" title="Popover Title" href=""><img src="~assets/YouTube.png" alt="logo youtube"></a>
         <p>Take a look in our <a href="#">Youtube Channel</a> and, why not, <a href="#">subscribe</a>.</p>
-      </div>
+  </div>
   </div>
 </template>
 

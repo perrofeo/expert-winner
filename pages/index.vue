@@ -1,10 +1,5 @@
 <template>
   <div class="fondo-home">
-  <b-navbar toggleable type="light" variant="light">
-    <b-navbar-nav class="ml-auto">
-    <b-nav-item href="/contact" right>to Info & Contact</b-nav-item>
-    </b-navbar-nav>
-  </b-navbar>
   <div class="container">
     <div class="fondo-color">
       <h1 class="title">
@@ -19,6 +14,7 @@
       <div class="contacto">
         <a v-b-popover.hover="'I am popover content!'" title="Popover Title" href=""><img src="~assets/YouTube.png" alt="logo youtube"></a>
         <p>Take a look in our <a href="#">Youtube Channel</a> and, why not, <a href="#">subscribe</a>.</p>
+        <a href="/contact"><span class="info-email">Info & Contact</span></a>
       </div>
     </div>
   </div>
@@ -69,7 +65,7 @@ export default {
   font-size: 60px;
   color: white;
   letter-spacing: 1px;
-  padding-top: 0px;
+  padding-top: 50px;
 }
 
 .subtitle {
@@ -86,7 +82,7 @@ export default {
 .foto-duo img {
   width: 100%;
   margin: auto;
-  max-width: 600px;
+  max-width: 550px;
 }
 .contacto {
   width: 100%;
@@ -94,10 +90,13 @@ export default {
 }
 .contacto img {
   width: 110px;
-  padding: 0px 0 0px;
+  padding: 20px 0;
 }
 .contacto a {
   color: #d52423;
+}
+.contacto span {
+  color: #212529;
 }
 @media (max-width: 750px) {
   .title {
