@@ -11,9 +11,6 @@
       <h1 class="title">
         Food Forest in Panama
       </h1>
-      <h2 class="subtitle">
-        with Ron Hunter and James Brown
-      </h2>
     </div>
   </div>
   </div>
@@ -48,8 +45,11 @@
   color: white !important;
 }
 .navbar-light .navbar-brand {
-  color: white;
+  color: rgba(0, 0, 0, 0.5);
   font-size: 1rem;
+  background-color: white;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 .container {
   margin: 0 auto;
