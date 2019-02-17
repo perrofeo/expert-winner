@@ -65,6 +65,7 @@ export default {
   font-size: 60px;
   color: white;
   letter-spacing: 1px;
+  padding-top: 40px;
 }
 
 .subtitle {
