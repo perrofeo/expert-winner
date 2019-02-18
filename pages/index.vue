@@ -94,6 +94,7 @@ export default {
 }
 .contacto a {
   color: #d52423;
+  text-decoration-color: #212529;
 }
 .contacto span {
   color: #212529;
